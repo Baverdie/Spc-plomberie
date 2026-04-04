@@ -1,0 +1,24 @@
+# Robots.txt pour SPC Plomberie Chauffage
+# https://spcplomberie33.fr
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://spcplomberie33.fr/sitemap.xml
+
+# Crawl-delay (optionnel, pour éviter surcharge serveur)
+Crawl-delay: 1
+
+# Bloquer les fichiers inutiles
+Disallow: /api/
+Disallow: /_next/
+Disallow: /admin/
+
+# Autoriser Google Image
+User-agent: Googlebot-Image
+Allow: /images/
+
+# Autoriser Google Mobile
+User-agent: Googlebot-Mobile
+Allow: /
